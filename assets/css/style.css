@@ -1,0 +1,199 @@
+/* CSS For All Pages */
+body {
+    background-image: url("../images/background.png");
+    vertical-align: center;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif !important;
+   }
+.container {
+    display: grid;
+    background-color:white;
+    margin: auto;
+    margin-top: 80px;
+    border: 2px thin #a39d9d;
+}
+header{
+    background-color:white;
+    position: fixed;
+    top: 0px;
+    height: 40px;
+    width: 100%;
+
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 35px;
+    width: 100%;
+    background-color: #666666;
+    color: white;
+    text-align: center;
+    border-top: 5px solid teal;
+    font-size: 12px
+}
+h1, h2, h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    background-color:teal;
+    color:white;
+}
+h3 {
+    background-color:teal;
+    color:white;
+    height: 40px;
+}
+h2 {
+    color:teal;
+    border-bottom:2px solid #777777
+}
+h1, h2 {
+    font-weight: bolder;
+    font-size: 20px
+}
+
+p {
+    color:#777777
+}
+#NamePlate {
+    width: fit-content;
+    text-align: left;
+    float: left;
+    height: 40px;
+}
+#PageLinks {
+    text-align: right;
+    display: inline;
+    float: right;
+}
+#PageLinks a {
+    text-decoration: none;
+    color: #777777;
+    
+
+}
+
+/* CSS For About Me Page */
+#abtcontainer {
+    padding: 20px;
+    height: 400px;
+    width: 660px;
+}
+
+#AboutHead {
+    grid-area: 1/1/span 1/span 2;
+    height: 40px;
+}
+#AboutMeImage {
+    grid-area: 2/1/span 1/span 1;
+    height: 145px;
+    width: 224px
+}
+#pgraph1 {
+    grid-area: 2/2/span 1/span 1;
+    padding-left: 10px;
+}
+#pgraph2 {
+    grid-area: 3/1/span 1/span 2;
+}
+#pgraph3 {
+    grid-area: 4/1/span 1/span 2;
+}
+/* CSS For Portfolio Page */
+
+#portcontainer {
+    padding: 20px;
+    height: 500px;
+    width: 500px;
+    text-align: center;
+    grid-column-gap: 15px;
+    grid-row-gap: 20px;
+}
+#PortHead {
+    padding-bottom: 20px;
+}
+.ImgBox {
+    height: 138px;
+    width: 180px;
+    position: relative;
+    text-align: center;
+}
+
+#PortHead {
+    grid-area: 1/1/span 1/span 2;
+    text-align: left;
+}
+#Hang {
+    grid-area: 2/1/span 1/span 1;
+}
+#RPG {
+    grid-area: 2/2/span 1/span 1;
+}
+#Trivia {
+    grid-area: 3/1/span 1/span 1;
+}
+#Widget {
+    grid-area: 3/2/span 1/span 1;
+}
+#RPS {
+    grid-area: 4/1/span 1/span 1;
+}
+.PortText {
+    bottom: 0px;
+    position: absolute;
+    width: 100%;
+}
+.PortText a {
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* CSS For Contact Page */
+#contcontainer {
+    padding: 20px;
+    height: 400px;
+    width: 500px;
+    text-align: left;
+}
+#ContHead {
+    grid-area: 1/1/span 1/span 1;
+    height: 25px;
+    padding-bottom: 15px;
+
+}
+#NameText {
+    grid-area: 2/1/span 1/span 1;
+}
+#EmailText {
+    grid-area: 3/1/span 1/span 1;
+}
+#MessageText {
+    grid-area: 4/1/span 1/span 1;
+}
+#SubmitButton {
+    grid-area: 5/1/span 1/span 1;
+}
+textarea {
+    width: 100%;
+    height: 150px;
+    margin-top: 2px;
+}
+.InputBox {
+    width: 100%;
+}
+button {
+    background-color: teal;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    height: 25px;
+    width: 75px;
+    cursor: pointer;
+}
