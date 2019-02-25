@@ -66,6 +66,7 @@ p {
     text-align: right;
     display: inline;
     float: right;
+    top: 10px;
 }
 #PageLinks a {
     text-decoration: none;
@@ -75,6 +76,7 @@ p {
 }
 
 /* CSS For About Me Page */
+
 #abtcontainer {
     padding: 20px;
     height: 400px;
@@ -100,6 +102,7 @@ p {
 #pgraph3 {
     grid-area: 4/1/span 1/span 2;
 }
+
 /* CSS For Portfolio Page */
 
 #portcontainer {
@@ -154,6 +157,7 @@ p {
 }
 
 /* CSS For Contact Page */
+
 #contcontainer {
     padding: 20px;
     height: 400px;
@@ -196,4 +200,105 @@ button {
     height: 25px;
     width: 75px;
     cursor: pointer;
+}
+
+/* Media Queries */
+
+/* queries for all pages */
+
+@media (max-width: 980px) {
+
+}
+@media (max-width: 768px) {
+    
+}
+@media (max-width: 640px) {
+    #NamePlate {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        height: 40px;
+        padding-top: 20px;
+    }
+    #PageLinks {
+        display: inline-block;
+        width: 100%;
+        height: 30px;
+        background-color:white;
+        text-align: center;
+        padding-top: 15px;
+        border-bottom: 1px solid #777777
+    }
+    header{
+        position: static;
+        top: 0px;
+        height: 30px;
+        width: 100%;
+    }
+    footer {
+        height: 40px;
+    }
+    .container {
+        margin-right: 10px;
+        margin-left: 10px;
+        box-sizing: border-box;
+        display: inline-block;
+    }
+}
+
+/* index.html queries */
+
+@media (max-width: 980px) {
+
+}
+@media (max-width: 768px) {
+    
+}
+@media (max-width: 640px) {
+    
+}
+
+/* portfolio.html queries */
+
+@media (max-width: 980px) {
+
+}
+@media (max-width: 768px) {
+    
+}
+@media (max-width: 640px) {
+    .ImgBox {
+        height: 110px;
+        width: 133px;
+        position: relative;
+        text-align: center;
+        margin: auto;
+        padding-top: 15px;
+    }
+    #portcontainer {
+        width: 95%;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    #PortText {
+        bottom: 15px;
+        position: absolute;
+        width: 100%;
+    }
+    #PortfolioLink {
+        padding: 0px 20px 0px 20px;
+    }
+
+}
+
+/* contact.html queries */
+
+@media (max-width: 980px) {
+
+}
+@media (max-width: 768px) {
+    
+}
+@media (max-width: 640px) {
+    
 }
