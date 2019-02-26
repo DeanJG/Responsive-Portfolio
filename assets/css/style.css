@@ -210,12 +210,6 @@ button {
 
 /* queries for all pages */
 
-@media (max-width: 980px) {
-
-}
-@media (max-width: 768px) {
-    
-}
 @media (max-width: 640px) {
     #NamePlate {
         display: inline-block;
@@ -255,12 +249,6 @@ button {
 
 /* index.html queries */
 
-@media (max-width: 980px) {
-
-}
-@media (max-width: 768px) {
-    
-}
 @media (max-width: 640px) {
     #abtcontainer {
         width: 95%;
@@ -284,12 +272,6 @@ button {
 
 /* portfolio.html queries */
 
-@media (max-width: 980px) {
-
-}
-@media (max-width: 768px) {
-    
-}
 @media (max-width: 640px) {
     .ImgBox {
         height: 110px;
@@ -324,12 +306,6 @@ button {
 
 /* contact.html queries */
 
-@media (max-width: 980px) {
-
-}
-@media (max-width: 768px) {
-    
-}
 @media (max-width: 640px) {
     #contcontainer {
         width: 95%;
@@ -340,3 +316,6 @@ button {
         margin-top: 20px;
     }
 }
+
+/* I couldn't quite figure out how to reorganize my header for above
+640px in a way that didn't break when the screen went below 640px. */
