@@ -31,6 +31,10 @@ footer {
     border-top: 5px solid teal;
     font-size: 12px
 }
+#FooterText {
+    position: relative;
+    top: 28%;
+}
 h1, h2, h3 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
